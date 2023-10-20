@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', ;
+}
+
+body{
+    font-size: 16px;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* start header */
+.header{
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header .nav a{
+    color: #2A5055;
+    font-size: 1.1rem;
+}
+
+
+
+.header .logo{
+    font-size: 1.5rem;
+    color: #2A5055;
+    font-weight: 550;
+}
+
+.header .reg .donate{
+    width: 5rem;
+    padding: .8rem 0;
+    border: none;
+    background-color: #2A5055;
+    color: #fff;
+    border-radius: 6px;
+    
+} 
+
+.header .reg .sign{
+    width: 5rem;
+    padding: .8rem 0;
+    border: 1px solid #3e5045;
+    color: #3e5045;
+    border-radius: 6px;
+    margin-left: 1.2rem;
+}
+
+.menu-icon{
+    display: none;
+}
+/* end header */
+
+
+/* start main */
+/* start section main */
+
+
+.background{
+    background-image: url(./images/main-image.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.section-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.section-main p{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.section-main .start-btn{
+    width: 11rem;
+    padding: 1.1rem 0;
+    margin-top: 4.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FA8F45;
+    color: #fff;
+}
+
+
+/* end section main */
+
+
+
+
+
+/* end main */
+
+
+/* start responsive */
+@media screen and (max-width: 768px){
+    body{
+        font-size: 10px;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 1.6rem;
+    }
+
+    .header .nav{
+        display: none;
+    }
+
+    .reg{
+        display: none;
+    }
+}
+/* end responsive */
